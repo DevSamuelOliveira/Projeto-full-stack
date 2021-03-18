@@ -7,8 +7,17 @@
   <title> HTML5 avançado </title>
 
   <style>
+
+    table{
+      border-spacing: 0;
+    }
+
     td{
       text-align: center;
+    }
+
+    th, td{
+      padding: 5px 20px;
     }
   </style>
 </head>
@@ -83,6 +92,31 @@
       <td> 7,000.00 </td>
       <td> 1 </td>
     </tr>
+  </table>
+
+  <br>
+  
+  <p> tabela com thead, tbody, tfoot</p>
+
+  <table border="1">
+    <thead style="background-color: chartreuse;">
+      <tr>
+        <th>Estoque</th>
+        <th>Validade</th>
+      </tr>
+    </thead>
+    
+    <tbody style="background-color: coral;">
+      <tr>
+        <td>5</td>
+        <td>10/21</td>
+      </tr>
+
+      <tr>
+        <td>8</td>
+        <td>11/21</td>
+      </tr>
+    </tbody>
   </table>
   
 </body>
