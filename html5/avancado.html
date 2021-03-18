@@ -32,6 +32,13 @@
     a página tocando/toca sozinho.
   </p>
 
+  <p> A tag audio tem um parâmetro preload que por padrão tem o valor "auto" o que é perigoso porque
+    isso significa que a página só vai retornar que foi carregada quando o áudio for totalmente carregado
+    o valor "metadata" ele carrega apenas algumas informações como nome do áudio etc, e o valor none não carrega nada
+    até que o usuário clique pra dar play no áudio.<br>
+    obs: para dar autoplay o preload tem que estar auto.
+  </p>
+
   <audio src="../music/Christina_Perri_a_thousand_years_(sloweddown).mp3" controls loop>
     Esté navegador não tem suporte a tag audio
   </audio>
@@ -47,6 +54,10 @@
   <p> A tag &lt;video&gt; tem os mesmos parâmetros da tag &lt;audio&gt; </p>
 
   <video src="../video/intro_5s_360p.mp4" controls> Este navegador não suporta o player </video>
+
+  <video controls>
+    <source src="https://www.youtube.com/results?search_query=curso+html5">
+  </video>
 
   <p> Para estudar source tag útil para alterar imagens para cada tamanho de tela etc apenas com html
     <a href="https://www.youtube.com/watch?v=zcMjUExEKm8&list=PLx4x_zx8csUiVHRDO_7qhOaeNrrQ5uU8c&index=70&ab_channel=CFBCursos"> Estudar tag source </a>
