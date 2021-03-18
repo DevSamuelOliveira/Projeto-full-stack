@@ -76,13 +76,37 @@
         <input type="radio" name="like_film">
         Não
       </label>
+    </fieldset>
 
+    <>
+      <legend> Dates avançados </legend>
+
+      <label>
+      Marque um horário conosco
+      <input type="time" name="time" min="20:30">
+      </label>
+
+      <label>
+        Marque uma data
+        <input type="date" name="data" min="2020-12-20">
+      </label>
+
+      <label>
+        Marque data e hora
+        <input type="datetime-local" name="datas">
+      </label>
+      <br>
+
+      <label>
+        Digite seu número:
+        <input type="tel" pattern="[a-d]{2}" name="cel">
+      </label>
+    </fieldset>
       <div id="btns_form">
         <input type="submit">
         <input type="reset">
         <input type="button" value="Aplicar">
       </div>
-    </fieldset>
   </form>
 
   <hr>
