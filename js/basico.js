@@ -16,3 +16,10 @@ console.log(nome)
 nome = 10
 
 console.log(nome)
+
+console.log("A primeira diferença entre var e let é que var pode ser redeclarada e let não")
+
+var nome2 = "Samuel"
+var nome2 = "Amanda"
+
+console.log(nome2)
