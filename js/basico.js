@@ -23,3 +23,5 @@ var nome2 = "Samuel"
 var nome2 = "Amanda"
 
 console.log(nome2)
+
+console.log(typeof nome2, nome2)
