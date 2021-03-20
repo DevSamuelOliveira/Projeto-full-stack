@@ -1,6 +1,6 @@
-text = "uma string"
+let text = "uma string"
 
-console.log(text[2]) //uma string na verdade é um vetor de caracteres e podemos pegar um caracter de uma posição espécifica 
+console.log(text[2]) //uma string na verdade é um vetor de caracteres e podemos pegar um caracter de uma posição espécifica
 console.log(text.charAt(2)) // equivalente ao metodo acima
 
 //concatenar strings
@@ -16,6 +16,8 @@ console.log(text.length)//retorna a quantidade de caracteres da string
 
 console.log(text.split("")) //retorna uma string separando de acordo o parâmetro passado, pode ser passado um segundo parâmetro
 //limitando a quantidade de indice que o retorno deve ter
+
+console.log(text.)
 
 console.log(text.toUpperCase())//deixa todos os caracteres em caixa alta(caps ligado, letras maiusculas)
 
