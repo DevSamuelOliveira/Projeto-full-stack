@@ -6,6 +6,7 @@ console.log(text.charAt(2)) // equivalente ao metodo acima
 //concatenar strings
 console.log("uma", "string")
 console.log("uma " + "string")
+text += " nova"
 console.log(text.concat(" nova"))
 console.log(`${text} nova com templateString`)
 
