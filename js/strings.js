@@ -17,8 +17,6 @@ console.log(text.length)//retorna a quantidade de caracteres da string
 console.log(text.split("")) //retorna uma string separando de acordo o parâmetro passado, pode ser passado um segundo parâmetro
 //limitando a quantidade de indice que o retorno deve ter
 
-console.log(text.)
-
 console.log(text.toUpperCase())//deixa todos os caracteres em caixa alta(caps ligado, letras maiusculas)
 
 console.log(text.toLowerCase())//deixa todos os caracteres em caixa baixa(caps desligado, letras menusculas)
