@@ -1,6 +1,7 @@
 let num = 10
 
-parseInt()// converte um objeto para string
+Number()// converte/retonra um inteiro
+parseInt()// converte um objeto para inteiro
 parseFloat()// converte um objeto para float
 
 console.log(num.toString())// retorna o número em string
