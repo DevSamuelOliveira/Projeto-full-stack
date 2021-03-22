@@ -8,4 +8,4 @@ console.log(data.getFullYear()) // retorna o ano
 console.log(data.getMinutes()) // retorna os minutos
 console.log(data.getSeconds()) // retorna os segundos
 console.log(data.getMilliseconds()) // retorna os milisegundos
-console.log(data.getDay()) //retorna um valor inteiro que representa o dia do mês.
+console.log(data.getDay()) //retorna um valor inteiro que representa o dia do mês começando por 0 sendo domingo o primeiro dia.
