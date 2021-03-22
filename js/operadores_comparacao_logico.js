@@ -6,3 +6,7 @@ let valor2 = '10'
 
 console.log(valor1 == valor2)
 console.log(valor1 === valor2)
+
+if (valor1 >10 || valor1 == 10){
+  console.log(true);
+}
