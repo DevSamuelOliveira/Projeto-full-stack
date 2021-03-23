@@ -27,9 +27,17 @@
 // .remove() - remove um elemento
 // .createElement() - cria um elemento html filho do elemento selecionado
 // .append(elemento criado) - insere o elemento no final do elemento selecionado
+// .appendChild() - idem append
 // .prepend(elemento criado) - insere o elemento no começo do elemento selecionado
 // .insertAfter(elemento criado) - insere o elmento antes do elemento selecionado
 // .insertBefore(elemento criado) - insere o elemento depois do elemento selecionado
+// .getAttribute() - retorna o valor de um atributo
+// .setAttribute() - altera o valor de um atributo
+// .className - retorna/altera atributo class
+// .classList - retorna um objeto para manipular as classes
+// .classList.add() - adiciona uma classe
+// .classList.remove() - remove uma classe
+// .classList.toggle() - se a classe existir remove e retorna false, se não existir adiciona e retorna true
 
 let subTitulo = document.createElement("h2")
 
