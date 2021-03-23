@@ -1,16 +1,38 @@
-const { dir } = require("node:console")
+// //propiedades de document
+// document.location // retorna um objeto com informações sobre o protocolo, a url da página etc
+// document.head // retorna o head da página
+// document.URL // retorna a url da página
+// document.title // retorna o titulo da página
+// document.images // retorna as imagens
+// document.links // retorna os links
+// document.forms // retorna os formulários
 
-console.log(document.location) // retorna um objeto com informações sobre o protocolo, a url da página etc
-console.log(console.dir(document.head)) // retorna o head da página
-console.log(document.URL) // retorna a url da página
-console.log(document.title) // retorna o titulo da página
-console.log(document.images) // retorna as imagens
-console.log(document.links) // retorna os links
-console.log(document.forms) // retorna os formulários
-console.log(console.dir(document.getElementById())) // retorna um elemento pelo id
-console.log(console.dir(document.getElementsByClassName())) // retorna uma colection de elemento html pela class
-console.log(console.dir(document.getElementsByTagName())) // retorna uma colection de elemento html pela tag
-console.log(console.dir(document.getElementsByName())) // retorna uma colection de elemento html pelo name
+// //selecionando elementos/metodos
+// document.getElementById() // retorna um elemento pelo id
+// document.querySelector() // retorna um elemento por seleção css, obs: retorna apenas 1 elemento
+// document.querySelectorAll() // retorna um elemento por seleção css, obs: retorna todos elementos
+// document.getElementsByClassName() // retorna uma colection de elemento html pela class
+// document.getElementsByTagName() // retorna uma colection de elemento html pela tag
+// document.getElementsByName() // retorna uma colection de elemento html pelo name
 
-//document.head.innerHTML // altera o html do head
-//document.body.innerHTML = "mudei o body"// altera o html do body
+//propiedades de seleções
+// .textContent - retorna/altera texto do elemento
+// .innerText - retorna/altera texto do elemento
+// .innerHTML - retorna/altera o html do elemento
+// .style.namestyle - retorna/altera o css do elemento
+// .children - retorna uma colection com os filhos da tag selecionada
+// .childNodes - retorna uma nodelist com os filhos
+// .parentNode - retorna a tag pai da tag selecionada
+// .parentElement - idem parentNode
+// .remove() - remove um elemento
+// .createElement() - cria um elemento html filho do elemento selecionado
+// .append(elemento criado) - insere o elemento no final do elemento selecionado
+// .prepend(elemento criado) - insere o elemento no começo do elemento selecionado
+// .insertAfter(elemento criado) - insere o elmento antes do elemento selecionado
+// .insertBefore(elemento criado) - insere o elemento depois do elemento selecionado
+
+let subTitulo = document.createElement("h2")
+
+document.getElementsByTagName('div')[0].insertBefore(subTitulo)
+
+subTitulo.innerText = "Subtitulo criado com javascript manipulando o DOM"
