@@ -20,6 +20,7 @@
 // .innerText - retorna/altera texto do elemento
 // .innerHTML - retorna/altera o html do elemento
 // .style.namestyle - retorna/altera o css do elemento
+//  style.setProperty('--color-cinza-claro', 'red') // altera variavel css ou atributo css
 // .children - retorna uma colection com os filhos da tag selecionada
 // .childNodes - retorna uma nodelist com os filhos
 // .parentNode - retorna a tag pai da tag selecionada
@@ -41,8 +42,9 @@
 // .ClassList.replace() - troca uma classe por outra
 // .classList.toggle() - se a classe existir remove e retorna false, se não existir adiciona e retorna true
 
-let subTitulo = document.createElement("h2")
+// let subTitulo = document.createElement("h2")
 
-document.getElementsByTagName('div')[0].insertBefore(subTitulo)
+// document.getElementsByTagName('div')[0].insertBefore(subTitulo)
 
-subTitulo.innerText = "Subtitulo criado com javascript manipulando o DOM"
+// subTitulo.innerText = "Subtitulo criado com javascript manipulando o DOM"
+

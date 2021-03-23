@@ -1,3 +1,7 @@
+:root{
+  --color-cinza-claro: rgb(145, 143, 143);
+}
+
 .class1{
-  color: red;
+  color: var(--color-cinza-claro)
 }
