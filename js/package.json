@@ -1,0 +1,16 @@
+{
+  "name": "aprendizado_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DOM.js",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Samuel Oliveira",
+  "license": "ISC"
+}
