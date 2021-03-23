@@ -11,4 +11,4 @@ console.log(exports)
 
 console.log(__filename) //retorna o caminho e o nome do arquivo
 console.log(__dirname) //retorna o caminho do arquivo
-console.log(path.resolve(__dirname, '..', 'nem existe')) //altera o path 
+console.log(path.resolve(__dirname, '..', 'nem existe')) //retorna/altera o path 
