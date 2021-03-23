@@ -35,8 +35,10 @@
 // .setAttribute() - altera o valor de um atributo
 // .className - retorna/altera atributo class
 // .classList - retorna um objeto para manipular as classes
+// .classList.contains() - retorna true se conter a classe, false se não conter
 // .classList.add() - adiciona uma classe
 // .classList.remove() - remove uma classe
+// .ClassList.replace() - troca uma classe por outra
 // .classList.toggle() - se a classe existir remove e retorna false, se não existir adiciona e retorna true
 
 let subTitulo = document.createElement("h2")
