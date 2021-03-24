@@ -16,6 +16,7 @@
 // document.getElementsByName() // retorna uma colection de elemento html pelo name
 
 //propiedades de seleções
+// .value - retorna valor de um input
 // .textContent - retorna/altera texto do elemento
 // .innerText - retorna/altera texto do elemento
 // .innerHTML - retorna/altera o html do elemento

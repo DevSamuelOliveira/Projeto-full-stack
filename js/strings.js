@@ -15,6 +15,8 @@ console.log(text.replace("uma", "duas?"))
 
 console.log(text.length)//retorna a quantidade de caracteres da string
 
+console.log(text.trim())// limpa os espaços em branco nas extreminades
+
 console.log(text.split("")) //retorna uma string separando de acordo o parâmetro passado, pode ser passado um segundo parâmetro
 //limitando a quantidade de indice que o retorno deve ter
 
