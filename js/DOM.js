@@ -1,4 +1,5 @@
 // //propiedades de document
+// document.write() // escreve no document
 // document.location // retorna um objeto com informações sobre o protocolo, a url da página etc
 // document.head // retorna o head da página
 // document.URL // retorna a url da página
@@ -48,4 +49,3 @@
 // document.getElementsByTagName('div')[0].insertBefore(subTitulo)
 
 // subTitulo.innerText = "Subtitulo criado com javascript manipulando o DOM"
-

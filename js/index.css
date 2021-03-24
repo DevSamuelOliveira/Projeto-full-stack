@@ -5,3 +5,7 @@
 .class1{
   color: var(--color-cinza-claro)
 }
+
+h1{
+  background-color: var(--color-cinza-claro)
+}
