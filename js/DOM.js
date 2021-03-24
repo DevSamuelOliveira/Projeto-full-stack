@@ -32,8 +32,8 @@
 // .append(elemento criado) - insere o elemento no final do elemento selecionado
 // .appendChild() - idem append
 // .prepend(elemento criado) - insere o elemento no começo do elemento selecionado
-// .insertAfter(elemento criado) - insere o elmento antes do elemento selecionado
-// .insertBefore(elemento criado) - insere o elemento depois do elemento selecionado
+// .insertAfter(elemento criado) - insere o elmento depois do elemento selecionado
+// .insertBefore(elemento criado) - insere o elemento antes do elemento selecionado
 // .getAttribute() - retorna o valor de um atributo
 // .setAttribute() - altera o valor de um atributo
 // .className - retorna/altera atributo class
