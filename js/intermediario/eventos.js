@@ -9,3 +9,7 @@ document.querySelectorAll('a')[0].addEventListener('click', (event) => {
 document.querySelectorAll('a')[1].addEventListener('click', (event) => {
   event.preventDefault()
 })
+
+function myEvent(event){
+  event.target.style.backgroundColor = 'red'
+}
