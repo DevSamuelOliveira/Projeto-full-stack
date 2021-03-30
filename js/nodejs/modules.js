@@ -1,14 +1,26 @@
-const path = require('path')
+const nome = "Samuel Souza de Oliveira";
+const idade = 20
 
-var nome = "Samuel"
+function sum(...nums){
+  let sum = 0
+  for(values of nums){
+    sum += values
+  }
+  return sum
+}
 
-//formas de exportar
-module.exports.nome = nome
-exports.nome = nome // 
-this.nome = nome
+// console.log(module) //Retorna o objeto Module com informações como path, filename, exports
 
-console.log(exports)
+module.exports.nome = nome //cria a chave nome dentro do objeto module em exports que recebe a const nome
+exports.idade = idade// idem acima, o module pode ser omitido
+this.sum = sum// idem acima
 
-console.log(__filename) //retorna o caminho e o nome do arquivo
-console.log(__dirname) //retorna o caminho do arquivo
-console.log(path.resolve(__dirname, '..', 'nem existe')) //retorna/altera o path 
+console.log("O que está aqui é executado quando o modulo é requerido")
+
+module.exports = (...nums) => { // Retorna apenas isso e quando for chamado não precisa ser referenciado
+  let sum = 0
+  for(values of nums){
+    sum += values
+  }
+  return sum
+}
