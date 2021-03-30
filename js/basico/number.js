@@ -4,6 +4,8 @@ Number()// converte/retonra um inteiro
 parseInt()// converte um objeto para inteiro
 parseFloat()// converte um objeto para float
 
+console.log(Number.MAX_VALUE) // retorna o maior número possivel do javascript
+
 console.log(num.toString())// retorna o número em string
 console.log(num.toFixed())// diz quantas casas decimais o número deve ter
 console.log(Number.isInteger(num))// retorna true se o número	for inteiro e false se não for inteiro
